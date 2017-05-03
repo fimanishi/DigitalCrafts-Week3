@@ -1,0 +1,58 @@
+img#main {
+  display: inline-block;
+}
+
+header {
+  position: relative;
+  top: 5em;
+  text-align: center;
+}
+
+section {
+  position: relative;
+  top: 5em;
+}
+
+#textbox {
+  height: 3em;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #d0d0d0;
+}
+
+#textbox:hover {
+  box-shadow: 0 1px 1px #888888;
+  border: 1px solid #f3f3f3;
+}
+
+.user_buttons {
+  background-color: #f3f3f3;
+  padding: 1em;
+  color: gray;
+  border: none;
+  margin: 0 0.2em;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.user_buttons:hover{
+  border: 1px solid black;
+  color: black;
+}
+
+#buttons {
+  display: inline-block;
+  margin: 2em auto;
+  width: auto;
+}
+
+.user {
+  margin-top: 1em;
+  text-align: center;
+}
+
+#main:hover{
+  width: 443px;
+  height: 184px;
+  content: url("/images/google2.jpg");
+}
